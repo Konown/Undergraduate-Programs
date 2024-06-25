@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TwoWheelsCar_F407VG"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoWheelsCar_F407VG.elf">
+				<Option output="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/TwoWheelsCar_F407VG.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoWheelsCar_F407VG.elf"/>
+					<CompileFile command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoWheelsCar_F407VG.elf/fast">
+				<Option output="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/TwoWheelsCar_F407VG.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\green\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 TwoWheelsCar_F407VG.elf/fast"/>
+					<CompileFile command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramData/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/FreeRTOSConfig.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/dma.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/gpio.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/i2c.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/main.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/stm32f4xx_it.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/tim.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Inc/usart.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/dma.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/freertos.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/gpio.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/i2c.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/main.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/stm32f4xx_it.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/syscalls.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/sysmem.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/system_stm32f4xx.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/tim.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Src/usart.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Core/Startup/startup_stm32f407vgtx.s">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cachel1_armv7.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm55.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_cm85.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/core_starmc1.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/pac_armv81.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/pmu_armv8.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/CMSIS/LICENSE.txt">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/encoder.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/motor.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/mycontrol.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/mypid.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/myrgb.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Inc/myuart.h">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/encoder.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/motor.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/mycontrol.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/mypid.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/myrgb.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/MyFile/Src/myuart.c">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/STM32F407VGTX_FLASH.ld">
+			<Option target="TwoWheelsCar_F407VG.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

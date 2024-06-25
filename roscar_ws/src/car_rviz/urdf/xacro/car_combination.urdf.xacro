@@ -1,0 +1,5 @@
+<!-- 组合小车底盘与雷达 -->
+<robot name="my_car_laser" xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:include filename="car_base.urdf.xacro" />
+    <xacro:include filename="my_laser.urdf.xacro" />
+</robot>

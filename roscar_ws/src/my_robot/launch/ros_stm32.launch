@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="my_robot" type="my_robot_node" name="my_robot_base" output="screen" />
+</launch>

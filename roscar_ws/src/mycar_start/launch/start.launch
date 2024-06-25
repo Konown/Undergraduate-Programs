@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find my_robot)/launch/ros_stm32.launch" />
+    <include file="$(find usb_cam)/launch/usb_cam.launch" />
+    <include file="$(find rplidar_ros)/launch/rplidar_a1.launch" />
+</launch>
+

@@ -1,0 +1,8 @@
+prefix=/home/known/bachlor_project/roscar_ws/devel
+
+Name: mycar_start
+Description: Description of mycar_start
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

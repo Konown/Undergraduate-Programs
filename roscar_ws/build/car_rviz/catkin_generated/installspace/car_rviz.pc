@@ -1,0 +1,8 @@
+prefix=/home/known/bachlor_project/roscar_ws/install
+
+Name: car_rviz
+Description: Description of car_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

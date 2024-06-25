@@ -1,0 +1,3 @@
+C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/CMakeFiles/TwoWheelsCar_F407VG.elf.dir
+C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chenh/Documents/bachelor_project/TwoWheelsCar_F407VG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
