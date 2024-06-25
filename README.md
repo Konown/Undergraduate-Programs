@@ -6,4 +6,4 @@ TwoWheelCar_F407VG文件夹存放下位机STM32代码。主控芯片是STM32F407
 
 roscar_ws文件夹存放上位机ROS代码。Linux系统环境是Ubuntu20.04，小型电脑选用树莓派4B，ROS版本为Noetic。
 
-3D模型文件 文件夹存放二驱小车
+3D模型文件夹存放二驱小车的机械仿真图。
