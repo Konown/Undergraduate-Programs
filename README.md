@@ -1,4 +1,9 @@
 本项目是于2024年6月杭州所完成的本科毕设，内容为基于ROS的二驱小车。
+
 ROS_Car_PCB文件夹存放pcb和原理图。使用立创eda专业版进行绘制。
+
 TwoWheelCar_F407VG文件夹存放下位机STM32代码。主控芯片是STM32F407VGT6。由STM32CubeMX软件配置FreeRTOS系统，用CLion软件进行HAL库的开发。
+
 roscar_ws文件夹存放上位机ROS代码。Linux系统环境是Ubuntu20.04，小型电脑选用树莓派4B，ROS版本为Noetic。
+
+3D模型文件 文件夹存放二驱小车
