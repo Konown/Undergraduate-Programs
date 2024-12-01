@@ -1,8 +1,0 @@
-prefix=/home/known/bachlor_project/roscar_ws/devel
-
-Name: car_gazebo
-Description: Description of car_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

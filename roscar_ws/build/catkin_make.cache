@@ -1,2 +1,0 @@
-car_gazebo:car_rviz:my_robot:mycar_start:roscar:rplidar_ros-master:usb_cam
--DCATKIN_DEVEL_PREFIX=/home/known/bachlor_project/roscar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/known/bachlor_project/roscar_ws/install -G Unix Makefiles

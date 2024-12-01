@@ -1,8 +1,0 @@
-prefix=/home/known/bachlor_project/roscar_ws/devel
-
-Name: rplidar_ros
-Description: Description of rplidar_ros
-Version: 2.1.5
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
