@@ -1,0 +1,107 @@
+Added Component: Designator=C1(CC 1.8*3.6)
+Add component (AddParameter): Name = "BOM名称"; Value = "直插瓷片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CC 1.8*3.6)
+Add component (AddParameter): Name = "BOM名称"; Value = "直插瓷片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=D1(DO-15)
+Added Component: Designator=E1(CAP 1.5*4*8)
+Add component (AddParameter): Name = "BOM名称"; Value = "直插电解电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=J1(Pin HDR1X4/2.54mm-S)
+Added Component: Designator=J2(Pin HDR1X2/2.54mm-S)
+Added Component: Designator=J3(Pin HDR1X4/2.54mm-S)
+Added Component: Designator=J4(Pin HDR1X4/2.54mm-S)
+Added Component: Designator=JP1(KF301-5.0-2P)
+Add component (AddParameter): Name = "BOM名称"; Value = "2P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(KF301-5.0-2P)
+Add component (AddParameter): Name = "BOM名称"; Value = "2P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=JP3(KF301-5.0-2P)
+Add component (AddParameter): Name = "BOM名称"; Value = "2P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(Fe-HDR1X3/2.54-S)
+Added Component: Designator=Q2(HDR2.54-Y-LI-3P)
+Added Component: Designator=R1(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RS 1/4W)
+Add component (AddParameter): Name = "BOM名称"; Value = "色环电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC Pin=C1-1
+Added Pin To Net: NetName=ADC Pin=J2-1
+Added Pin To Net: NetName=ADC Pin=R1-1
+Added Pin To Net: NetName=ADC Pin=R4-2
+Added Net: Name=ADC
+Added Pin To Net: NetName=A IN Pin=E1-1
+Added Pin To Net: NetName=A IN Pin=JP1-2
+Added Pin To Net: NetName=A IN Pin=JP3-2
+Added Pin To Net: NetName=A IN Pin=R1-2
+Added Net: Name=A IN
+Added Pin To Net: NetName=A OUT Pin=JP2-2
+Added Pin To Net: NetName=A OUT Pin=JP3-1
+Added Net: Name=A OUT
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=D1-A
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=JP2-1
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetD1_K Pin=D1-K
+Added Pin To Net: NetName=NetD1_K Pin=JP1-1
+Added Pin To Net: NetName=NetD1_K Pin=Q1-2
+Added Net: Name=NetD1_K
+Added Pin To Net: NetName=NetQ1_B Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_B Pin=R2-2
+Added Net: Name=NetQ1_B
+Added Pin To Net: NetName=NetQ2_B Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_B Pin=R3-2
+Added Net: Name=NetQ2_B
+Added Pin To Net: NetName=NetQ2_C Pin=Q2-3
+Added Pin To Net: NetName=NetQ2_C Pin=R2-1
+Added Net: Name=NetQ2_C
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=PWM Pin=J2-2
+Added Pin To Net: NetName=PWM Pin=R3-1
+Added Net: Name=PWM
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Pin To Net: NetName=VCC Pin=J1-2
+Added Pin To Net: NetName=VCC Pin=J1-3
+Added Pin To Net: NetName=VCC Pin=J1-4
+Added Pin To Net: NetName=VCC Pin=Q1-3
+Added Net: Name=VCC
+Added Class: Name=buck_chw_v3.0
